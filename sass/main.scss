@@ -3,6 +3,12 @@ $text-color: #20303c;
 $text-light-color: #43515c; // grey
 $text-hover-color: #4aa1ea; // blue
 
+$text-size: 18px;
+$text-header-size: 28px;
+$text-heading-size: 24px;
+$text-nav-size: 18px;
+$text-date-size: 16px;
+
 .dark {
   color: $text-color !important;
 }
@@ -38,7 +44,7 @@ a:active {
 }
 html {
   height: 100%;
-  font-size: 18px;
+  font-size: $text-size;
 }
 body {
   display: -webkit-flex;
@@ -184,7 +190,7 @@ section.header .avatar {
   max-width: 50px;
 }
 section.header .name {
-  font-size: 28px;
+  font-size: $text-header-size;
   font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
@@ -209,7 +215,7 @@ section.header h3.self-intro {
   margin-bottom: 1rem;
 }
 section.header nav {
-  font-size: 19px;
+  font-size: $text-nav-size;
   margin-bottom: 16px;
   text-transform: uppercase;
   font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
@@ -264,7 +270,6 @@ section.header nav ul a:hover {
     color: $text-color;
   }
   section.header nav {
-    font-size: 19px;
     margin-bottom: 0;
   }
   section.header nav ul {
@@ -360,7 +365,7 @@ section.main .content .title-container {
 }
 section.main .content .title-container .initials {
   display: none;
-  font-size: 28px;
+  font-size: $text-header-size;
   font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
@@ -382,7 +387,7 @@ section.main .content .title-container .initials a:hover {
   color: $text-color;
 }
 section.main .content .page-heading {
-  font-size: 24px;
+  font-size: $text-heading-size;
   font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
@@ -404,6 +409,7 @@ section.main .content .front-matter .meta {
   display: -ms-flex;
   display: flex;
   margin-bottom: 32px;
+  font-size: $text-date-size;
 }
 section.main .content .front-matter .date,
 section.main .content .front-matter .word-count,
@@ -498,6 +504,7 @@ section.main .container .content .post-item .meta {
   display: none;
   min-width: 125px;
   text-align: right;
+  font-size: $text-date-size;
 }
 section.main .container .content .post-item .title {
   display: inline-block;
@@ -511,7 +518,7 @@ section.main .container .content .no-bullet {
   margin-bottom: 1rem;
 }
 section.main .container .content .no-bullet .date {
-  font-size: 28px;
+  font-size: $text-header-size;
   font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
@@ -562,7 +569,6 @@ section.main {
   }
   section.main.post {
     padding-top: 60px;
-    padding-bottom: 60px;
   }
 }
 
@@ -589,7 +595,6 @@ a:hover {
 
 .markdown a:hover {
   border-bottom-color: $text-color;
-  color: $text-color;
 }
 img {
   max-width: 100%;
@@ -612,7 +617,7 @@ section.main .content .markdown h3,
 section.main .content .markdown h4,
 section.main .content .markdown h5,
 section.main .content .markdown h6 {
-  font-size: 24px;
+  font-size: $text-heading-size;
   font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
