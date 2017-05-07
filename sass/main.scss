@@ -68,7 +68,7 @@ body {
   min-height: 100%;
   font-weight: 400;
   font-family: 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif;
-  color: #111;
+  color: $text-color;
   line-height: 1.6;
   text-rendering: optimizeLegibility !important;
 }
@@ -248,7 +248,7 @@ section.header nav ul a {
   -o-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
 }
 section.header nav ul a:hover {
-  color: #111;
+  color: $text-color;
 }
 @media (min-width: 600px) {
   section.header {
@@ -349,7 +349,7 @@ section.main .container {
   justify-content: flex-start;
 }
 section.main .content {
-  color: #111;
+  color: $text-color;
   font-size: 20px;
 }
 section.main .content .title-container {
