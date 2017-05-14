@@ -1,19 +1,20 @@
 // Colors from Wix Blog - https://www.wix.com/blog/
-$text-color: #20303c;
-$text-light-color: #43515c; // grey
-$text-hover-color: #4aa1ea; // blue
+$font-color: #20303c;
+$font-lighter-color: #a3b1ac; // light grey
+$font-light-color: #43515c; // grey
+$font-hover-color: #4aa1ea; // blue
 
-$text-size: 18px;
-$text-header-size: 28px;
-$text-heading-size: 24px;
-$text-nav-size: 18px;
-$text-date-size: 16px;
+$font-size: 18px;
+$font-header-size: 28px;
+$font-heading-size: 24px;
+$font-nav-size: 18px;
+$font-date-size: 16px;
 
 .dark {
-  color: $text-color !important;
+  color: $font-color !important;
 }
 .light {
-  color: $text-light-color !important;
+  color: $font-light-color !important;
 }
 .accent {
   color: #428bca !important;
@@ -44,7 +45,7 @@ a:active {
 }
 html {
   height: 100%;
-  font-size: $text-size;
+  font-size: $font-size;
 }
 body {
   display: -webkit-flex;
@@ -68,7 +69,7 @@ body {
   min-height: 100%;
   font-weight: 400;
   font-family: 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif;
-  color: $text-color;
+  color: $font-color;
   line-height: 1.6;
   text-rendering: optimizeLegibility !important;
 }
@@ -190,14 +191,14 @@ section.header .avatar {
   max-width: 50px;
 }
 section.header .name {
-  font-size: $text-header-size;
+  font-size: $font-header-size;
   font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  color: $text-color;
+  color: $font-color;
   text-transform: uppercase;
   color: #555;
 }
@@ -209,13 +210,13 @@ section.header h3.self-intro {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  color: $text-color;
+  color: $font-color;
   font-weight: 400;
   color: #555;
   margin-bottom: 1rem;
 }
 section.header nav {
-  font-size: $text-nav-size;
+  font-size: $font-nav-size;
   margin-bottom: 16px;
   text-transform: uppercase;
   font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
@@ -248,7 +249,7 @@ section.header nav ul a {
   -o-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
 }
 section.header nav ul a:hover {
-  color: $text-color;
+  color: $font-color;
 }
 @media (min-width: 600px) {
   section.header {
@@ -267,7 +268,7 @@ section.header nav ul a:hover {
     align-items: flex-start;
   }
   section.header .name {
-    color: $text-color;
+    color: $font-color;
   }
   section.header nav {
     margin-bottom: 0;
@@ -276,10 +277,10 @@ section.header nav ul a:hover {
     text-align: left;
   }
   section.header nav ul a {
-    color: $text-light-color;
+    color: $font-light-color;
   }
   section.header nav ul a:hover {
-    color: $text-color;
+    color: $font-color;
   }
 }
 section.icons {
@@ -349,7 +350,7 @@ section.main .container {
   justify-content: flex-start;
 }
 section.main .content {
-  color: $text-color;
+  color: $font-color;
   font-size: 20px;
 }
 section.main .content .title-container {
@@ -365,36 +366,36 @@ section.main .content .title-container {
 }
 section.main .content .title-container .initials {
   display: none;
-  font-size: $text-header-size;
+  font-size: $font-header-size;
   font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  color: $text-color;
+  color: $font-color;
   text-transform: uppercase;
-  color: $text-light-color;
+  color: $font-light-color;
 }
 section.main .content .title-container .initials a {
-  color: $text-light-color;
+  color: $font-light-color;
   -webkit-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -moz-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -ms-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -o-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
 }
 section.main .content .title-container .initials a:hover {
-  color: $text-color;
+  color: $font-color;
 }
 section.main .content .page-heading {
-  font-size: $text-heading-size;
+  font-size: $font-heading-size;
   font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  color: $text-color;
+  color: $font-color;
   text-transform: uppercase;
   margin-bottom: 16px;
 }
@@ -402,14 +403,14 @@ section.main .content .front-matter .page-heading {
   margin-bottom: 0;
 }
 section.main .content .front-matter .meta {
-  color: $text-light-color;
+  color: $font-light-color;
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flexbox;
   display: -ms-flex;
   display: flex;
   margin-bottom: 32px;
-  font-size: $text-date-size;
+  font-size: $font-date-size;
 }
 section.main .content .front-matter .date,
 section.main .content .front-matter .word-count,
@@ -500,11 +501,11 @@ section.main .container .content .post-item {
   list-style: disc inside;
 }
 section.main .container .content .post-item .meta {
-  color: $text-light-color;
+  color: $font-light-color;
   display: none;
   min-width: 125px;
   text-align: right;
-  font-size: $text-date-size;
+  font-size: $font-date-size;
 }
 section.main .container .content .post-item .title {
   display: inline-block;
@@ -518,15 +519,15 @@ section.main .container .content .no-bullet {
   margin-bottom: 1rem;
 }
 section.main .container .content .no-bullet .date {
-  font-size: $text-header-size;
+  font-size: $font-header-size;
   font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  color: $text-color;
-  color: $text-light-color !important;
+  color: $font-color;
+  color: $font-light-color !important;
   font-style: normal;
 }
 section {
@@ -573,7 +574,7 @@ section.main {
 }
 
 a {
-  color: $text-color;
+  color: $font-color;
   -webkit-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -moz-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -ms-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
@@ -581,12 +582,12 @@ a {
 }
 
 a:hover {
-  color: $text-hover-color;
+  color: $font-hover-color;
 }
 
 .markdown a {
-  border-bottom: 1px solid #777;
-  color: $text-color;
+  border-bottom: 2px solid $font-lighter-color;
+  color: $font-color;
   -webkit-transition: border-bottom-color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -moz-transition: border-bottom-color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -ms-transition: border-bottom-color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
@@ -594,7 +595,7 @@ a:hover {
 }
 
 .markdown a:hover {
-  border-bottom-color: $text-color;
+  border-bottom-color: $font-color;
 }
 img {
   max-width: 100%;
@@ -609,7 +610,7 @@ img.profile {
   }
 }
 .page-heading a {
-  color: $text-color;
+  color: $font-color;
 }
 section.main .content .markdown h1,
 section.main .content .markdown h2,
@@ -617,14 +618,14 @@ section.main .content .markdown h3,
 section.main .content .markdown h4,
 section.main .content .markdown h5,
 section.main .content .markdown h6 {
-  font-size: $text-heading-size;
+  font-size: $font-heading-size;
   font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  color: $text-color;
+  color: $font-color;
   text-transform: none;
   margin-top: 1.75rem;
 }
@@ -700,11 +701,12 @@ section.main .content .markdown dd {
   margin-bottom: .5rem;
 }
 section.main .content .markdown ul {
-  margin-bottom: 1.25rem;
+  margin: 0 0 5% 25px;
+  list-style: square;
 }
 section.main .content .markdown li {
-  list-style-type: disc;
-  list-style-position: inside;
+  font-size: $font-size;
+  margin-bottom: 2%;
 }
 section.main .content .markdown em {
   font-style: italic;
@@ -722,7 +724,7 @@ section.main .content .markdown hr {
 section.main .content .markdown abbr {
   font-size: 0.85rem;
   font-weight: bold;
-  color: $text-light-color;
+  color: $font-light-color;
   text-transform: uppercase;
 }
 section.main .content .markdown abbr[title] {
