@@ -10,4 +10,16 @@
   <script type="text/javascript">
     hljs.initHighlightingOnLoad();
   </script>
+
+  <script
+    src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous">
+  </script>
+  <script>
+    // http://stackoverflow.com/questions/4425198/markdown-target-blank
+    $(document.links).filter(function() {
+        return this.hostname != window.location.hostname;
+    }).attr('target', '_blank');
+  </script>
 {{ end }}
