@@ -11,6 +11,9 @@ $font-heading-size: 24px;
 $font-nav-size: 18px;
 $font-date-size: 16px;
 
+$font-bold-weight: 500;
+$font-heading-weight: 400;
+
 .colored {
   color: $font-colored-color !important;
 }
@@ -201,7 +204,7 @@ section.header .name {
   font-size: $font-header-size;
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
-  font-weight: 700;
+  font-weight: $font-bold-weight;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
@@ -213,7 +216,7 @@ section.header h3.self-intro {
   font-size: 1em;
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
-  font-weight: 700;
+  font-weight: $font-bold-weight;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
@@ -249,7 +252,7 @@ section.header nav ul li:last-child {
 }
 section.header nav ul a {
   color: #555;
-  font-weight: 500;
+  font-weight: 400;
   -webkit-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -moz-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -ms-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
@@ -376,7 +379,7 @@ section.main .content .title-container .initials {
   font-size: $font-header-size;
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
-  font-weight: 700;
+  font-weight: $font-bold-weight;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
@@ -398,7 +401,7 @@ section.main .content .page-heading {
   font-size: $font-heading-size;
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
-  font-weight: 700;
+  font-weight: $font-heading-weight;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
@@ -529,7 +532,7 @@ section.main .container .content .no-bullet .date {
   font-size: $font-header-size;
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
-  font-weight: 700;
+  font-weight: $font-bold-weight;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
@@ -628,7 +631,7 @@ section.main .content .markdown h6 {
   font-size: $font-heading-size;
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
-  font-weight: 700;
+  font-weight: $font-bold-weight;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
@@ -719,7 +722,7 @@ section.main .content .markdown em {
   font-style: italic;
 }
 section.main .content .markdown strong {
-  font-weight: 700;
+  font-weight: $font-bold-weight;
 }
 section.main .content .markdown hr {
   position: relative;
