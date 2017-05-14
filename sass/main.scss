@@ -5,6 +5,7 @@ $font-light-color: #43515c; // grey
 $font-hover-color: #4aa1ea; // blue
 
 $font-size: 18px;
+$font-code-size: 16px;
 $font-header-size: 28px;
 $font-heading-size: 24px;
 $font-nav-size: 18px;
@@ -651,7 +652,7 @@ section.main .content .markdown h6 {
 section.main .content .markdown code,
 section.main .content .markdown pre {
   font-family: 'Ubuntu Mono', 'Menlo', monospace;
-  font-size: 1rem;
+  font-size: $font-code-size;
   background-color: #f7f7f7;
 }
 section.main .content .markdown code {
@@ -674,7 +675,7 @@ section.main .content .markdown pre {
 section.main .content .markdown pre code {
   /* enclosed by 3 backticks (```) */
   padding: 0;
-  font-size: 1rem;
+  font-size: $font-code-size;
 }
 section.main .content .markdown a code {
   color: #428bca !important;
