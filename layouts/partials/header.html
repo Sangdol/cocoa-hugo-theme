@@ -46,6 +46,10 @@
             <a href="{{ .Site.Params.github }}" target="_blank" rel="noopener"><img class="icon" src="/img/github.svg" alt="github" /></a>
         {{ end }}
 
+        {{ if .Site.Params.stackoverflow }}
+            <a href="{{ .Site.Params.stackoverflow }}" target="_blank" rel="noopener"><img class="icon" src="/img/stackoverflow.svg" alt="stackoverflow" /></a>
+        {{ end }}
+
         {{ if .Site.Params.twitter }}
             <a href="{{ .Site.Params.twitter }}" target="_blank" rel="noopener"><img class="icon" src="/img/twitter.svg" alt="twitter" /></a>
         {{ end }}
