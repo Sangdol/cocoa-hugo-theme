@@ -2,7 +2,7 @@
 $font-color: #20303c;
 $font-lighter-color: #a3b1ac; // light grey
 $font-light-color: #43515c; // grey
-$font-hover-color: #4aa1ea; // blue
+$font-colored-color: #4aa1ea; // blue
 
 $font-size: 18px;
 $font-code-size: 16px;
@@ -11,11 +11,17 @@ $font-heading-size: 24px;
 $font-nav-size: 18px;
 $font-date-size: 16px;
 
+.colored {
+  color: $font-colored-color !important;
+}
 .dark {
   color: $font-color !important;
 }
 .light {
   color: $font-light-color !important;
+}
+.lighter {
+  color: $font-lighter-color !important;
 }
 .accent {
   color: #428bca !important;
@@ -583,7 +589,7 @@ a {
 }
 
 a:hover {
-  color: $font-hover-color;
+  color: $font-colored-color;
 }
 
 .markdown a {

@@ -1,9 +1,15 @@
 @charset "UTF-8";
+.colored {
+  color: #4aa1ea !important; }
+
 .dark {
   color: #20303c !important; }
 
 .light {
   color: #43515c !important; }
+
+.lighter {
+  color: #a3b1ac !important; }
 
 .accent {
   color: #428bca !important; }
