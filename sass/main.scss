@@ -11,6 +11,7 @@ $font-heading-size: 24px;
 $font-nav-size: 18px;
 $font-date-size: 16px;
 
+$font-bolder-weight: 700;
 $font-bold-weight: 500;
 $font-heading-weight: 400;
 
@@ -648,6 +649,7 @@ section.main .content .markdown h2 {
   margin-bottom: 1.5rem;
 }
 section.main .content .markdown h3 {
+  font-weight: $font-bolder-weight;
   font-size: 1rem;
   margin-bottom: 1rem;
 }
