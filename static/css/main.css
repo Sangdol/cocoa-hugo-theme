@@ -719,6 +719,12 @@ section.main .content .markdown img {
   margin: 1rem 0;
   max-width: 100%; }
 
+section.main .content .markdown img + figcaption {
+  margin: -1.5rem 0 1rem 0;
+  text-align: center;
+  color: #a3b1ac;
+  font-size: 14px; }
+
 section.main .content .markdown table {
   margin-bottom: 1rem;
   width: 100%;
