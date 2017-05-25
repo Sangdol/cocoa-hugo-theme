@@ -5,5 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer">
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+{{ if .Site.Params.ogImage }}
+<meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.ogImage }}">
+{{ end }}
 
 {{ template "_internal/opengraph.html" . }}
