@@ -509,11 +509,12 @@ section.main .container .content .post-item {
   -ms-align-items: center;
   align-items: center;
   display: list-item;
-  list-style: disc inside;
+  list-style: none;
+  margin-bottom: 10%;
+  line-height: 1.3em;
 }
 section.main .container .content .post-item .meta {
   color: $font-light-color;
-  display: none;
   min-width: 125px;
   text-align: right;
   font-size: $font-date-size;
@@ -575,6 +576,8 @@ section.main {
   section.main .container .content .post-item {
     display: flex;
     list-style: none;
+    margin-bottom: 0;
+    line-height: 1.6em;
   }
   section.main .container .content .post-item .meta {
     display: block;
