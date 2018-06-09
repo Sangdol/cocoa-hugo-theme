@@ -769,3 +769,54 @@ section.main .content .markdown tbody tr:nth-child(odd) td,
 section.main .content .markdown tbody tr:nth-child(odd) th {
   background-color: #f7f7f7;
 }
+
+/* signup */
+
+section.signup {
+  order: 3;
+
+  input {
+    border-radius: 0;
+    height: 34px;
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .email {
+    transition: ease all .4s;
+  }
+  .email:focus {
+    border-color: $font-lighter-color;
+  }
+
+  .subscribe.button {
+    vertical-align: top;
+    font-weight: 400;
+    background-color: #fafafa;
+    color: $font-light-color;
+    border-left: 0;
+  }
+
+  .subscribe.button:hover {
+    border-color: $font-lighter-color;
+    border-left: 0;
+  }
+}
+
+@media (min-width: 600px) {
+  section.signup {
+    padding-top: 60px;
+    order: 2;
+
+    .email {
+      font-size: 14px;
+      width: 200px;
+    }
+
+    form, input {
+      margin-bottom: 0;
+    }
+  }
+  section.icons {
+    padding-top: 15px;
+  }
+}

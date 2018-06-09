@@ -725,4 +725,39 @@ section.main .content .markdown tbody tr:nth-child(odd) td,
 section.main .content .markdown tbody tr:nth-child(odd) th {
   background-color: #f7f7f7; }
 
+/* signup */
+section.signup {
+  order: 3; }
+  section.signup input {
+    border-radius: 0;
+    height: 34px;
+    font-size: 14px;
+    line-height: 14px; }
+  section.signup .email {
+    transition: ease all .4s; }
+  section.signup .email:focus {
+    border-color: #a3b1ac; }
+  section.signup .subscribe.button {
+    vertical-align: top;
+    font-weight: 400;
+    background-color: #fafafa;
+    color: #43515c;
+    border-left: 0; }
+  section.signup .subscribe.button:hover {
+    border-color: #a3b1ac;
+    border-left: 0; }
+
+@media (min-width: 600px) {
+  section.signup {
+    padding-top: 60px;
+    order: 2; }
+    section.signup .email {
+      font-size: 14px;
+      width: 200px; }
+    section.signup form, section.signup input {
+      margin-bottom: 0; }
+
+  section.icons {
+    padding-top: 15px; } }
+
 /*# sourceMappingURL=main.css.map */
