@@ -36,7 +36,7 @@ a:active {
 
 html {
   height: 100%;
-  font-size: 18px; }
+  font-size: 16px; }
 
 body {
   display: -webkit-flex;
@@ -661,7 +661,7 @@ section.main .content .markdown ul {
   list-style: square; }
 
 section.main .content .markdown li {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 1%; }
 
 section.main .content .markdown em {
